@@ -27,7 +27,7 @@ module.exports = {
       'LabeledStatement',
       'WithStatement',
     ],
-    'prefer-regex-literals': ['error', { "disallowRedundantWrapping": true }],
+    'prefer-regex-literals': 'off', 
   },
   overrides:[
     {
