@@ -1,4 +1,3 @@
-
 module.exports = {
   env: {
     browser: false,
@@ -28,6 +27,7 @@ module.exports = {
       'LabeledStatement',
       'WithStatement',
     ],
+    'prefer-regex-literals': ['error', { "disallowRedundantWrapping": true }],
   },
   overrides:[
     {
@@ -36,5 +36,4 @@ module.exports = {
     }
   ]
 };
-
 
