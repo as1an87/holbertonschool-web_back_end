@@ -2,6 +2,6 @@
 """a concatenated string"""
 
 
-def add(a: str, b: str) -> str:
+def concat(str1: str, str2: str) -> str:
    """ a concatenated string"""
-    return a + b
+    return str1 + str2
