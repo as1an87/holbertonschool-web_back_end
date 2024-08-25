@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
-""" Function """
+"""Module for insert_school function"""
 
 
 def insert_school(mongo_collection, **kwargs):
-    """Return"""
-    if len(kwargs) == 0:
-        return None
-    return mongo_collection.insert(kwargs)
+    """Function for inserting new schools"""
+    return mongo_collection.insert_one(kwargs).inserted_id
